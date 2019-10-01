@@ -1,0 +1,357 @@
+#adventure h1 {
+	
+		font-family: sans-serif;
+		margin: 30px;
+		width: 50%; 
+		text-align: center;
+
+
+}
+#adventure-1{
+	opacity: 1;
+	margin-bottom: 0px;
+}
+#adventure-2{
+	opacity: .60;
+}
+#adventure-3{
+	opacity: .50;
+}
+#adventure-4{
+	opacity: .40;
+}
+#adventure-5{
+	opacity: .30;
+}
+#adventure-6{
+	opacity: .16;
+}
+#adventured h2{
+	font-family: sans-serif;
+	font-size: 80px;
+	
+		margin: 80px;
+		width: 80%; 
+		text-align: center;
+
+}
+#adventured-7{
+	color: red;
+}
+#adventured-8{
+	color: orangered;
+}
+#adventured-9{
+	color: tomato;
+}
+#adventured-10{
+	color: coral;
+}
+#adventured-11{
+	color: salmon;
+}
+#adventured-12{
+	color: lightcoral;
+
+}
+#bold h1{
+	font-family: Time New Roman;
+	margin: 50px;
+	width: 80%;
+	font-size: 100%;
+	text-align: right;
+
+}
+#bold-1{
+	opacity: 1;
+	color: orchid;
+}
+#bold-2{
+	opacity: .60;
+	color: plum;
+}
+#bold-3{
+	opacity: .50;
+	color: mediumpurple;
+}
+#bold-4{
+	opacity: .40;
+	color: blueviolet;
+}
+#bold-5{
+	opacity: .30;
+	color: royalblue;
+}
+#bold-6{
+	opacity: .20;
+	color: dodgerblue;
+}
+
+#number{
+	font-family: Time New Roman;
+	
+	hyphens: auto;
+	word-break: normal;
+
+}
+#number-1{
+	
+	color: orchid;
+}
+#number-2{
+	
+	color: plum;
+}
+#number-3{
+	
+	color: mediumpurple;
+}
+#number-4{
+	
+	color: blueviolet;
+}
+#number-5{
+	
+	color: royalblue;
+}
+#number-6{
+	
+	color: dodgerblue;
+}
+
+#beautiful{
+	font-family: Arial;
+	font-size: 80px;
+	margin: 0;
+	display: inline;
+	word-break: break-all;
+	hyphens: auto;
+}
+#beautiful-1{
+	color: orange;
+
+}
+#beautiful-2{
+	color: beige;
+}
+#beautiful-3{
+	color: beige;
+}
+#beautidul-4{
+	color: beige;
+}
+
+#beautiful-5{
+	color: orange;
+}
+#beautiful-6{
+	color: beige;
+}
+
+#china{
+	font-family: Courier New;
+	font-style: oblique;
+	font-size: 10vw;
+  	border: 1px solid red;
+}
+#ch h1 {
+	font-size: 80px;
+	margin: 0;
+    word-break: break-all;
+	hyphens: auto;
+			text-align: center;
+			font-style: oblique;
+			background-color: #92a8d1;
+
+
+}
+#ch-1{
+	color: maroon;
+}
+#ch-3{
+	color: maroon;
+}
+#ch-2{
+color: maroon;
+}
+#ch-4{
+	color: maroon;
+}
+#ch-5{
+	color: maroon;
+}
+#ch-6{
+	color: maroon;
+}
+#ch-7{
+	color: maroon;
+}
+#cb{
+	font-size: 30px;
+    word-break: break-all;
+			text-align: center;
+			font-style: oblique;
+
+
+}
+#cb-1 {
+	opacity: 1;
+	margin-bottom: 0px;
+}
+#cb-2 {
+	opacity: .60;
+}
+#cb-3 {
+	opacity: .50;
+}
+#cb-4 {
+	opacity: .40;
+}
+#cb-5 {
+	opacity: .30;
+}
+#cb-6 {
+	opacity: .16;
+}
+#cq{
+	font-size: 30px;
+    word-break: break-all;
+    text-align: right;
+			font-style: oblique;
+}
+
+}
+#cq-6 {
+	opacity: 1;
+	margin-bottom: 0px;
+}
+#cq-5 {
+	opacity: .60;
+}
+#cq-4 {
+	opacity: .50;
+}
+#cq-3 {
+	opacity: .40;
+}
+#cq-2 {
+	opacity: .30;
+}
+#cq-1 {
+	opacity: .16;
+}
+#cr{
+	font-family: Arial;
+	font-size: 10px;
+	margin: 0;
+	display: inline;
+	word-break: break-all;
+	hyphens: auto;
+	text-align: center;
+}
+#ce{
+	font-family: Arial;
+	font-size: 20px;
+	margin: 0;
+	display: inline;
+	word-break: break-all;
+	hyphens: auto;
+	text-align: left;
+}
+#cy{
+	font-family: Arial;
+	font-size: 40px;
+	margin: 0;
+	display: inline;
+	word-break: break-all;
+	hyphens: auto;
+	text-align: right;
+}
+}
+#cr-1{
+	color: orange;
+
+}
+#cr-2{
+	color: beige;
+}
+#cr-3{
+	color: orange;
+}
+#cr-4{
+	color: beige;
+}
+
+#cr-5{
+	color: orange;
+}
+#cr-6{
+	color: beige;
+}
+
+#ce-1{
+	
+	color: orchid;
+}
+#ce-2{
+	
+	color: plum;
+}
+#ce-3{
+	
+	color: mediumpurple;
+}
+#ce-4{
+	
+	color: blueviolet;
+}
+#ce-5{
+	
+	color: royalblue;
+}
+#ce-6{
+	
+	color: dodgerblue;
+}
+#cy-1{
+	color: red;
+}
+#cy-2{
+	color: orangered;
+}
+#cy-3{
+	color: tomato;
+}
+#cy-4{
+	color: coral;
+}
+#cy-5{
+	color: salmon;
+}
+#cy-6{
+	color: lightcoral;
+}
+#c6 h1 {
+	font-size: 80px;
+	margin: 0;
+	display: inline;
+    word-break: break-all;
+	hyphens: auto;
+	background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+#c6-2 {
+	opacity: .60;
+}
+#c6-3 {
+	opacity: .50;
+}
+#c6-4 {
+	opacity: .40;
+}
+#c6-5 {
+	opacity: .30;
+}
+#c6-6 {
+	opacity: .16;
+}
