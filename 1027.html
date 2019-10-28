@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="dcode.css">
+	
+
+</head>
+
+<body>
+	<div id="box"></div>
+
+	<script type="text/javascript">
+		var pulse =function(){
+			var e= document.createElement("div");
+			e.setAttribute('class','circle'),
+			document.body.appendChild(e),
+			e.style.top=event.pageY	+ 'px',
+			e.style.left=event.pageX + 'px',
+			setTimeout(function(){
+				document.body.removeChild(e)
+			},1000)
+		};
+		document.addEventListener('click',pulse)
+	</script>
+	<p>
+		<button onclick="myMove()">Click</button>
+	</p>
+	<div id="myAnimation"></div>
+	<script type="text/javascript">
+		function myMove(){
+			var elem= document.getElementById("myAnimation");
+			var pos = 0;
+			var id= setInterval(frame,10);
+			function frame(){
+				if(pos==350){
+					clearInterval(id);
+				}else{
+					pos++;
+					elem.style.top = pos + 'px';
+					elem.style.left= pos + 'px';
+				}
+			}
+		}
+	</script>
+
+<div id="boxx">
+
+</div>
+<div id="slider" onclick="slide();">Click
+	</div>
+	<script type="text/javascript">
+		var slider=document.getElementById("slider");
+		var open=false;
+		function slide(){
+			if(!open){
+				slider.style.transform="scale(1.1)";
+				slider.style.left="750px";
+				open=true;
+			}
+			else{
+				slider.style.transform="scale(.5)";
+				slider.style.left="500px";
+				open=false;
+			}
+
+		}
+	</script>
+	</body>
+	<body>
+	<div id="new">
+	</div>
+	<div id="slider2" onclick="slide();">
+	</div>
+		<script type="text/javascript">
+		var slider2=document.getElementById("slider2");
+		function slide(){
+				slider2.style.transform="scale(2)";
+				slider2.style.left="750px";
+				</script>
+			
+
+</body>
+</html>
