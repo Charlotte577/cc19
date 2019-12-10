@@ -1,0 +1,298 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.bear {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transition: 1s all cubic-bezier(.87, .76, .33, .98);
+  overflow: hidden;
+}
+
+.split.left {
+  left: 0;
+  background-image: url("321.png");
+
+}
+
+.split.right {
+  right: 0;
+  background-image: url("123.png");
+
+}
+
+.content.hover-left .split.left {
+  width: 60%;
+}
+
+.content.hover-left .split.right {
+  width: 40%;
+}
+
+.content.hover-right .split.right {
+  width: 60%;
+}
+
+.content.hover-right .split.left {
+  width: 40%;
+}
+
+.skateboard {
+  width: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.text .button {
+  font-size: 16px;
+  color: #fff;
+  background: transparent;
+  border: #fff solid 2px;
+  padding: 15px 50px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+}
+
+
+.text {
+  width: 600px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s cubic-bezier(.87, .76, .33, .98);
+}
+
+
+.text .title {
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'sansserifexbflf-italic';
+  line-height: 1;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.text .desc {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 2;
+  margin: 10px 0 30px 0;
+  width: 400px;
+}
+
+
+
+.content.hover-left .split.left .text {
+  transform: translate(-40%, -50%);
+}
+
+.content.hover-left .split.right .text {
+  transform: translate(-40%, -50%);
+}
+
+.content.hover-right .split.right .text {
+  transform: translate(-60%, -50%);
+}
+
+.content.hover-right .split.left .text {
+  transform: translate(-45%, -50%);
+}
+
+
+
+.content.click-right .split.left {
+  /*transform: translate(-45%, -50%);*/
+opacity: .01;
+
+ }
+
+.content.click-left .split.right {
+  /*transform: translate(-45%, -50%);*/
+opacity: .01;
+   
+ }
+ .back {
+  background-image: url("99.png");
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  
+}
+.body1{
+  width: 650px;
+  top: 170px;
+  height: 650px;
+  margin: 0px auto;
+  color: black;
+  background: #fff;
+  opacity: 0.7;
+  position: relative;
+
+}
+.right{
+  background-image: url("89.jpeg");
+  
+  height: 100%;
+  opacity: 0.8;
+
+}
+.body2{
+   width: 650px;
+  top: 180px;
+  height: 650px;
+  margin: 0px auto;
+  color: black;
+  background: #fff;
+  opacity: 0.7;
+  position: relative;
+}
+.link1{
+  background-image: url("dis.jpg");
+  
+  height: 100%;
+  opacity: 0.8;
+}
+.body3{
+   width: 1250px;
+  top: 580px;
+  height: 230px;
+  margin: 0px auto;
+  color: white;
+  font-size: 12px;
+  position: relative;
+}
+.link2{
+  background-image: url("link2.jpg");
+  
+  height: 100%;
+  opacity: 0.8;
+}
+.body4{
+   width: 550px;
+  top: 20px;
+  height: 800px;
+  margin: 0px auto;
+  color: black;
+  background: #fff;
+  opacity: 0.8;
+  font-size: 12px;
+  position: relative;
+}
+.link3{
+  background-image: url("Grimm.jpg");
+  
+  height: 100%;
+  opacity: 0.8;
+}
+.body5{
+   width: 450px;
+  top: 10px;
+  height: 800px;
+  margin: 0px auto;
+  color: black;
+  background: #fff;
+  opacity: 0.7;
+  position: relative;
+  font-size: 15px;
+}
+.navbar {
+  width: 5vh;
+  height: 1%;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+}
+.navbar button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar button:hover {
+   color: yellow;
+}
+ul{
+  display: none;
+}
+.menu.open ul{
+  display: block;
+  background: white;
+  width:50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  height: 10vh; 
+  opacity: 0;
+  transform: translate(10px);
+  transition: all 0.4s ease;
+}
+.menu li{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu li: hover{
+  background-color: yellow;
+
+}
+.menu.open a{
+  color: black;
+  text-decoration: none;
+}
+
+.menu button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(0px);
+}
+
+
+
+
+
+
+
+
